@@ -32,3 +32,39 @@
 .sidebar_link p {
     font-size: 10px;
 }
+
+
+
+@media (min-width: 1200px) {
+    .side_bar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+        background-color: white;
+        width: 240px;
+        z-index: 200;
+        padding-top: 13px;
+    }
+
+    .sidebar_link {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 8px 24px;
+    }
+
+    .sidebar_link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    .sidebar_link img {
+        height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .sidebar_link p {
+        font-family: Roboto, Arial;
+        font-size: 14px;
+    }
+}
